@@ -1,0 +1,177 @@
+body {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #313f4b;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.content {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1130px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #202a32;
+  padding: 32px 20px;
+  margin: 0 auto 20px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+.title {
+  display: block;
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  text-align: center;
+  color: #ffffff;
+}
+
+h1,
+.title.general {
+  text-transform: uppercase;
+}
+
+h2,
+.title.high {
+  display: flex;
+
+  justify-content: left;
+  align-items: center;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: left;
+
+  text-transform: uppercase;
+  color: #2bc69d;
+  margin-bottom: 20px;
+}
+
+h2::before,
+.title.high::before,
+h2::after,
+.title.high::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: url(../images/crown.svg) no-repeat center center / contain;
+}
+
+h3,
+title.medium {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.4px;
+  text-align: left;
+}
+
+article > *,
+.article > *,
+.desk > * {
+  margin-top: 20px;
+}
+
+article > *:first-child,
+.article > *:first-child,
+.desk > *:first-child {
+  margin-top: 0 !important;
+}
+
+article > h2,
+.article > h2,
+.desk > h2 {
+  margin-top: 32px;
+}
+
+article > h3,
+.article > h3,
+.desk > h3 {
+  margin-top: 16px;
+}
+
+.button {
+  position: relative;
+  min-width: 240px;
+  height: 48px;
+  border-radius: 8px;
+  background: #22c99d;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.48px;
+  text-align: center;
+  text-decoration: none;
+
+  color: #ffffff;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 14px 83px;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  border: 2px solid #22c99d;
+  background: none;
+  color: #22c99d;
+}
+
+.button.outline {
+  border: 2px solid #22c99d;
+  background: none;
+  color: #22c99d;
+  padding: 12px 24px;
+}
+
+.button.outline:hover {
+  background: #22c99d;
+  color: #ffffff;
+}
+
+.header,
+.main,
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.background img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.images img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
