@@ -556,16 +556,45 @@ article > h3,
 .features__list,
 .features__table {
   width: 50%;
-
-  border: 2px solid transparent;
-  border-radius: 6px;
-  border: 2px solid #008795;
-  /* background: linear-gradient(transparent, transparent) padding-box,
-    linear-gradient(45deg, #365ce0 0%, #b436e0 100%) border-box; */
-  /* border-image: linear-gradient(45deg, #365ce0 0%, #b436e0 100%) 1; */
-
   padding: 8px 20px;
 }
+
+.features__list {
+  margin-right: 20px;
+}
+
+/* --------- */
+.features__list,
+.features__table,
+.ratings__list,
+.faq__answer,
+.faq__item,
+.banner,
+.sidebar__nav {
+  position: relative;
+  border-radius: 6px;
+  background: linear-gradient(45deg, #365ce0 0%, #b436e0 100%);
+  z-index: 1;
+}
+
+.features__list::before,
+.features__table::before,
+.ratings__list::before,
+.faq__answer::before,
+.faq__item::before,
+.banner::before,
+.sidebar__nav::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: #202a32;
+  z-index: -1;
+}
+
+/* --------- */
 
 .features__list {
   margin-right: 20px;
@@ -672,27 +701,28 @@ article > h3,
 }
 
 /* -----------ratings---------- */
-
+.ratings__wrap {
+  display: flex;
+  gap: 20px;
+}
 .ratings ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
+  width: calc(50% - 10px);
   gap: 8px;
+  padding: 8px;
 }
 .ratings ul li {
   display: flex;
-  width: calc(50% - 10px);
+
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
   line-height: 22px;
   text-transform: uppercase;
   padding: 8px 12px;
-}
-
-.ratings ul li {
-  border: 2px solid #008795;
-  border-radius: 6px;
 }
 
 .ratings ul li img {
@@ -713,6 +743,10 @@ article > h3,
 .ratings ul li span {
   font-size: 15px;
   font-weight: 700;
+  margin-left: 30px;
+}
+
+.ratings ul:first-child li:nth-child(2) span {
   margin-left: 20px;
 }
 
@@ -763,7 +797,7 @@ article > h3,
 }
 
 .faq__answer {
-  border: 2px solid #008795;
+  /* border: 2px solid #008795; */
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
   padding: 16px 12px;
@@ -792,7 +826,7 @@ article > h3,
 
 .footer__content {
   max-width: 1440px;
-  padding: 32px 40px 20px 280px;
+  padding: 20px 40px 20px 280px;
   margin: auto;
 }
 
