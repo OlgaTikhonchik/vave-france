@@ -302,6 +302,7 @@ article > h3,
 .header__button {
   min-width: 102px;
   text-transform: capitalize;
+  line-height: 22px;
   padding: 12px 23px;
   margin: 0;
 }
