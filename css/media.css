@@ -19,9 +19,7 @@
     width: 150px;
   }
 
-  .ratings ul li p {
-    margin-right: 0;
-  }
+  
 }
 
 @media screen and (max-width: 1169px) {
