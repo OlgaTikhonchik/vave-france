@@ -556,7 +556,7 @@ svg {
   right: 0;
   top: 0;
   z-index: 1;
-  flex: 1 1 3800px;
+  /* flex: 1 1 350px; */
 }
 
 .hero__img img,
@@ -795,11 +795,15 @@ svg {
   padding: 16px 20px;
 }
 
+.faq__item {
+  white-space: wrap;
+}
+
 .faq__subtitle::after {
   content: "";
   display: inline-block;
   position: absolute;
-  top: 15px;
+  top: 23px;
   right: 19px;
   width: 24px;
   height: 24px;
