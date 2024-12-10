@@ -170,11 +170,17 @@
   }
 
   .faq__subtitle {
-    padding-right: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
   }
 
   .faq__subtitle::after {
-    right: 8px;
+    right: 5px;
+    top: 16px;
+  }
+  .main__wrap {
+    padding: 10px;
   }
 }
 
