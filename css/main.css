@@ -516,7 +516,8 @@ svg {
 .hero {
   position: relative;
   display: flex;
-  background: linear-gradient(0deg, #365ce0 0%, #b436e0 100%);
+  
+  background: linear-gradient(0deg, #1e2830 18%, #1c785d 100%);
 
   padding: 89px 31px;
 }
