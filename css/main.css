@@ -316,7 +316,9 @@ article > h3,
   display: block;
   flex: 0 1 auto;
   min-width: 0;
-  background: #054146;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  background: linear-gradient(#313f4b 0%, #313f4b 20%, #19232d 97%);
   padding: 15px;
   margin-left: 15px;
   order: 3;
@@ -354,6 +356,7 @@ svg {
 }
 
 .sidebar {
+  
   flex: 0 0 210px;
   border-radius: 8px;
   margin-right: 20px;
