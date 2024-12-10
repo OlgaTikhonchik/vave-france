@@ -28,7 +28,7 @@
   <body>
     <header class="header">
       <section class="content header__content">
-        <a href="#" class="header__logo"
+        <a href="#" class="logo header__logo"
           ><img src="./images/Logo.svg" alt="logo" title
         /></a>
         <nav class="menu header__menu">
@@ -44,16 +44,23 @@
           <span><img src="./images/france.svg" alt="flag" title /></span>
           <span>fr</span>
         </a>
-        <a href="#" class="button outline">sign in</a>
-        <a href="#" class="button header__button">sign up</a>
+        <a href="#" class="button outline">Sign in</a>
+        <a href="#" class="button header__button">Sign up</a>
       </section>
     </header>
     <main class="main">
       <section class="main__wrap">
         <aside class="sidebar">
-          <a href="#" class="button sidebar__button">Fortune wheel</a>
+        
+            <a href="#" class="button sidebar__button">Fortune wheel
+                <div class="sidebar__img">
+                    <img src="./images/wof-button.svg" alt="">
+                    <img src="./images/fortune.svg" alt="">   
+                </div>
+            </a>
+         
           <div class="sidebar__sport">
-            <div class="sidebar__desc">Sport</div>
+            <div class="sidebar__description">Sport</div>
             <ul class="sidebar__menu">
               <li>
                 <a href="#"
@@ -117,7 +124,7 @@
           <section class="content hero">
             <div class="hero__data">
              <div class="hero__rating" itemscope itemtype="http://schema.org/Game">
-              <p>Overall Rating:</p>
+              <p>Overall Rating</p>
               <meta itemprop="name" content="">
               <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
                 <span itemprop="ratingValue">91</span>
@@ -139,6 +146,21 @@
           </div>
             </div>
           </section>
+          <section class="content page__nav">
+            <div class="page__nav-desc sidebar__desc">Lorem ipsum</div>
+            <ul class="page__nav-list sidebar__list">
+              <li><a href="#">Review of Aviator</a></li>
+              <li><a href="#">Registration</a></li>
+              <li><a href="#">Layouts and navigation</a></li>
+              <li><a href="#">Online Casinos</a></li>
+              <li><a href="#">Payment options</a></li>
+              <li><a href="#">Sports betting</a></li>
+              <li><a href="#">Live stream</a></li>
+              <li><a href="#">Live betting</a></li>
+              <li><a href="#">Cash out</a></li>
+            </ul>
+         
+          </section>
           <section class="content article">
             <p>Formidabile sito di scommesse online, con 22Bet potrete realizzare i vostri desideri, trasformando il vostro hobby preferito in una fonte di guadagno. Questo allibratore è esperto di servizi di casinò e sportsbook, consentendo a chiunque lo utilizzi di scegliere l’esperienza di gioco che più li gratifichi.</p>
             <p>Si possono effettuare scommesse in pochi clic e bastano appena 24 ore per ricevere il denaro vinto.</p>
@@ -146,13 +168,13 @@
           <section class="content features">
            <h2 class="title high features__title">20Bet Brasil: Casa de Aposta e Cassino</h2>
           <div class="features__wrap">
-             <ul class="features__list">
-            <li>Huge variety of Sports to Bet On</li>
-            <li>Wide amount of Deposit Methods</li>
-            <li>1000+ Casino Games from Best Providers</li>
-            <li>Generous Winnings and Jackpots</li>
-            <li>Mobile Apps for iOS and Android</li>
-            <li>Largest selection of Live Betting Games</li>
+            <ul class="features__list">
+                <li>Huge variety of Sports to Bet On</li>
+                <li>Wide amount of Deposit Methods</li>
+                <li>1000+ Casino Games from Best Providers</li>
+                <li>Generous Winnings and Jackpots</li>
+                <li>Mobile Apps for iOS and Android</li>
+                <li>Largest selection of Live Betting Games</li>
            </ul>
              <table class="features__table">
               <tbody class="features__group">
@@ -203,7 +225,7 @@
           </section>
           <section class="content article">
               <h2 class="title high article__title">20Bet Brasil: Casa de Aposta e Cassino</h2>
-              <p>Formidabile sito di scommesse online, con 22Bet potrete realizzare i vostri desideri, trasformando il vostro hobby preferito in una fonte di guadagno. Questo allibratore è esperto di servizi di casinò e sportsbook, consentendo a chiunque lo utilizzi di scegliere l’esperienza di gioco che più li gratifichi.</p>
+              <p>Formidabile sito di scommesse online, con <a href="#">22Bet</a> potrete realizzare i vostri desideri, trasformando il vostro hobby preferito in una fonte di guadagno. Questo allibratore è esperto di servizi di casinò e sportsbook, consentendo a chiunque lo utilizzi di scegliere l’esperienza di gioco che più li gratifichi.</p>
               <ul>
                 <li>text</li>
                 <li>text</li>
@@ -222,7 +244,7 @@
           </section>
           <section class="content article">
               <h2 class="title high article__title">20Bet Brasil: Casa de Aposta e Cassino</h2>
-              <p>Formidabile sito di scommesse online, con 22Bet potrete realizzare i vostri desideri, trasformando il vostro hobby preferito in una fonte di guadagno. Questo allibratore è esperto di servizi di casinò e sportsbook, consentendo a chiunque lo utilizzi di scegliere l’esperienza di gioco che più li gratifichi.</p>
+              <p>Formidabile sito di scommesse online, con <a href="#">22Bet</a> potrete realizzare i vostri desideri, trasformando il vostro hobby preferito in una fonte di guadagno. Questo allibratore è esperto di servizi di casinò e sportsbook, consentendo a chiunque lo utilizzi di scegliere l’esperienza di gioco che più li gratifichi.</p>
              
               <h3 class="title medium article__subtitle">20Bet Brasil: Casa de Aposta e Cassino</h3>
               <p>Si possono effettuare scommesse in pochi clic e bastano appena 24 ore per ricevere il denaro vinto.</p>
@@ -235,23 +257,24 @@
                 <li>
                     <p>Sports Betting:</p>
                     <img src="./images/ratings1.svg" alt="ratings">
-                    <span>9/10</span>
+                    <span><strong>9</strong>/10</span>
                 </li>
                 <li><p>Casino Games:</p>
-                    <img src="./images/ratings2.svg" alt="ratings">
-                    <span>4/10</span></li>
+                    <img src="./images/ratings4.svg" alt="ratings">
+                    <span><strong>10</strong>/10</span></li>
+                    
                 <li><p>Welcome Bonus:</p>
                     <img src="./images/ratings3.svg" alt="ratings">
-                    <span>7/10</span></li>
+                    <span><strong>7</strong>/10</span></li>
                 <li><p>Weekly Promotions:</p>
-                    <img src="./images/ratings4.svg" alt="ratings">
-                    <span>10/10</span></li>
+                    <img src="./images/ratings2.svg" alt="ratings">
+                    <span><strong>4</strong>/10</span></li>
                 <li><p>Customer Support:</p>
                     <img src="./images/ratings5.svg" alt="ratings">
-                    <span>8/10</span></li>
+                    <span><strong>8</strong>/10</span></li>
                 <li><p>Banking Options:</p>
                     <img src="./images/ratings1.svg" alt="ratings">
-                    <span>9/10</span></li>
+                    <span><strong>9</strong>/10</span></li>
             </ul>
              <a href="" class="button ratings__button">Get bonus</a>
 
@@ -333,5 +356,8 @@
            </div>
         </section>
     </footer>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/expander.js"></script>
+    <script src="./js/arrowUp.js"></script>
   </body>
 </html>
