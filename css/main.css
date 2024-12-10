@@ -306,6 +306,10 @@ article > h3,
   margin: 0;
 }
 
+.header__menu-btn {
+  display: none;
+}
+
 /* -------------- header__btn-menu-----------*/
 
 .header__btn-menu {

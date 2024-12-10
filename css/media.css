@@ -101,6 +101,16 @@
   .footer__info {
     flex-direction: column;
   }
+  .footer__info p {
+    margin-bottom: 10px;
+  }
+  .main {
+    padding-bottom: 42px;
+  }
+
+  .main__arrow {
+    bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 757px) {
@@ -176,10 +186,6 @@
 
   .hero__rating {
     margin-bottom: 0;
-  }
-
-  .hero__img img {
-    /* display: none; */
   }
 }
 
