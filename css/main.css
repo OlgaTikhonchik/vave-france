@@ -921,7 +921,7 @@ svg {
   display: inline-block;
   min-width: 111px;
   max-height: 40px;
-
+  line-height: 18px;
   padding: 11.5px 14.32px;
 }
 .footer__wrap {
