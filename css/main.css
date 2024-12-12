@@ -612,7 +612,7 @@ svg {
 .faq__answer,
 .faq__item,
 .banner,
-.sidebar__nav {
+.sidebar__nav,.about__content {
   position: relative;
   border-radius: 6px;
   background: linear-gradient(45deg, #365ce0 0%, #b436e0 100%);
@@ -625,7 +625,7 @@ svg {
 .faq__answer::before,
 .faq__item::before,
 .banner::before,
-.sidebar__nav::before {
+.sidebar__nav::before,.about__content::before {
   content: "";
   position: absolute;
   top: 2px;
