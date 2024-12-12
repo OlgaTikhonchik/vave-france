@@ -42,6 +42,66 @@
 .article ul li::before {
    content: "•";}
 
+
+.about{
+    display: flex;
+    flex-direction: column;
+    
+}   
+
+.about__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.about__content{
+    display: flex;
+    padding: 18px 24px 18px 10px;
+    
+}
+
+
+.title.high.about__title{
+    color:#ffffff;
+    margin-bottom: 0;
+}
+
+.title.high.about__title::before,
+.title.high.about__title::after{
+ display: none;
+}
+
+.about__button{
+    min-width: 127px;
+    padding: 14px 36px;
+    margin-left: 0;
+}
+
+
+.about__images img{
+    display: block;
+    /* max-width: 100%; */
+    max-width: 230px;
+    height: 100%;
+    
+    
+}
+
+.main__arrow-bonus{
+    right: 0;
+    bottom: -30px;
+    border-radius:50%;
+    border:1px solid #ffffff;
+
+}
+
+.main{
+    display: block;
+}
+
 /* ------------app------------------- */
 .banner{
     padding: 88px 126px 88px 70px; 
@@ -61,17 +121,24 @@
     background: #216F38 ;
     font-size: 16px;
     font-weight: 700;
-    /* white-space: wrap; */
     white-space: normal;
     padding: 12px 72px 12px 74px;
     margin-right: 0;
     margin-left: 0;
     z-index: 3;
+    transition: all 0.5s;
 }
 
 .banner__button-android{
     background: #126873;
     padding: 12px 32px 12px 74px;
+}
+
+.banner__button-ios:hover, .banner__button-android:hover{
+    border: 2px solid #22c99d;
+  background: none;
+  color: #22c99d;
+  
 }
 
 .banner__button-ios::before, .banner__button-android::before {

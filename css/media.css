@@ -350,10 +350,74 @@
 
 
 /* -----------bonus------------- */
+@media screen and (max-width: 1170px) {
+.hero.hero__section{
+  padding-left: 100px;
+    padding-right: 100px;
+}}
+
+
+@media screen and (max-width: 882px) {
+  .hero__image{
+    left: -280px;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .hero__image{
+    left: -480px;
+  }
+}
+
+@media screen and (max-width: 581px) {
+  .hero__image{
+    left: -680px;
+  }
+
+  .hero.hero__section{
+    padding-left: 40px;
+      
+  }
+
+ .about .about__content{
+  flex-direction: column;
+  align-items: center;
+  padding-right: 10px;
+ }
+
+  .about__images{
+    position: relative;
+    right: -40px;
+  }
+
+  .about__wrap {
+    align-items: center;
+  }
+
+  .about .about__button{
+    margin:0 auto;
+  }
+
+  .about__wrap p {
+    text-align: center;
+  }
+}
 
 
 
 
+  @media screen and (max-width: 409px) {
+    .hero__image{
+      left: -780px;
+    }
+
+    .hero.hero__section{
+      padding-left: 10px;
+        
+    }}
+   
+
+/* ------------app-------------- */
 @media screen and (max-width: 1121px) {
   .hero__content{
     padding-left: 100px;
