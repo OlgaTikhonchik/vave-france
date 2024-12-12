@@ -267,6 +267,12 @@
   }
 }
 
+@media screen and (max-width: 557px) {
+  .hero__rating {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 580px) {
   .ratings ul li img {
     width: 200px;
@@ -345,9 +351,7 @@
 
 /* -----------bonus------------- */
 
-@media screen and (max-width: 1200px) {
-  
-}
+
 
 
 @media screen and (max-width: 1121px) {
@@ -360,10 +364,7 @@
     right: 10px;
   }
 
-  /* .banner__img img {
-    object-position: 50%;
-    
-  } */
+  
 }
 
 @media screen and (max-width: 1000px) {
@@ -376,14 +377,14 @@
 }
 
 @media screen and (max-width: 938px) {
-  .main__arrow{
+  .arrow__app{
     right:0;
     bottom: -30px;
 }
 }
 
 @media screen and (max-width: 890px) {
-  .hero__data {
+  .hero__data-app {
     background: rgba(3, 78, 110, 0.5);
     
   }
@@ -404,9 +405,9 @@
 }
 
 @media screen and (max-width: 557px) {
-  .hero__data {
+  .hero__data-app {
     background: rgba(3, 78, 110, 0.5);
-    width: max-content;
+   
   }
   
   h1, .title.general{
@@ -432,7 +433,7 @@
 }
 }
 @media screen and (max-width: 365px) {
- .hero__data{
+ .hero__data-app{
   min-width: 250px;
  }
 
