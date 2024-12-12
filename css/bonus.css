@@ -1,0 +1,113 @@
+.hero{
+    flex: 1 1 100%;
+    border-radius: 8px;
+    padding: 123px 230px;
+
+}
+.main{
+    padding-bottom: 52px;
+}
+
+.main__wrap{
+    flex-direction: column;
+}
+
+.main__wrapper{
+    display: flex;
+    position: relative;
+   flex: 0 1 calc(100% - 210px - 10px);
+   max-width: 1440px;
+   justify-content: center;
+   align-items: stretch;
+   padding: 20px 0 0 0;
+   
+}
+
+.hero__data .hero__text{
+    font-style: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.hero__data .hero__text span:not(:last-child){
+    margin-right: 5px;
+}
+
+
+
+.faq{
+    margin-bottom: 20px;
+}
+
+.article ul li::before {
+   content: "•";}
+
+/* ------------app------------------- */
+.banner{
+    padding: 88px 126px 88px 70px; 
+}
+
+.banner__data{
+    gap: 20px;
+    max-width: 274px;
+    /* padding: 88px 70px; */
+}
+
+.banner__button-ios, .banner__button-android{
+    display: flex;
+    min-width: 274px;
+    height: 64px;
+    border-radius: 16px;
+    background: #216F38 ;
+    font-size: 16px;
+    font-weight: 700;
+    /* white-space: wrap; */
+    white-space: normal;
+    padding: 12px 72px 12px 74px;
+    margin-right: 0;
+    margin-left: 0;
+    z-index: 3;
+}
+
+.banner__button-android{
+    background: #126873;
+    padding: 12px 32px 12px 74px;
+}
+
+.banner__button-ios::before, .banner__button-android::before {
+    content:'';
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: 12px;
+    background: url(../images/apple.svg) no-repeat center center / contain;
+    
+}
+
+.banner__button-android::before {
+    background: url(../images/android.svg) no-repeat center center / contain;
+}
+
+.banner__images img{
+    display: block;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.banner__images{
+    position: absolute; 
+   
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0; 
+  
+}
+
+.main__arrow{
+    right:-10px;
+    bottom: -50px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+}

@@ -236,10 +236,15 @@
     padding: 40px;
   }
 
-  .title.features__title,
+  /* .title.features__title,
   .title.article__title,
   .title.ratings__title,
   .title.faq__title {
+    font-size: 22px;
+    text-align: center;
+  } */
+
+  h2, .title.high{
     font-size: 22px;
     text-align: center;
   }
@@ -334,5 +339,106 @@
 
   .main {
     display: block;
+  }
+}
+
+
+/* -----------bonus------------- */
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+
+@media screen and (max-width: 1121px) {
+  .hero__content{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+   .hero__images{
+    right: 10px;
+  }
+
+  /* .banner__img img {
+    object-position: 50%;
+    
+  } */
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__images{
+    right:0;
+  }
+
+  .hero__content{
+    padding-left: 60px;}
+}
+
+@media screen and (max-width: 938px) {
+  .main__arrow{
+    right:0;
+    bottom: -30px;
+}
+}
+
+@media screen and (max-width: 890px) {
+  .hero__data {
+    background: rgba(3, 78, 110, 0.5);
+    
+  }
+  
+}
+
+@media screen and (max-width: 665px) {
+
+  .banner{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner__images {
+    position: relative;
+    max-width: 300px;
+    left: -60px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+  .hero__data {
+    background: rgba(3, 78, 110, 0.5);
+    width: max-content;
+  }
+  
+  h1, .title.general{
+    font-size: 28px;
+    text-align: center;
+  }
+
+  
+}
+
+@media screen and (max-width: 557px) {
+  .hero__button{
+    margin-right: 0;
+  }
+
+  .hero__content{
+    padding-left: 20px;}
+}
+
+@media screen and (max-width: 519px) {
+.main {
+  display: block;
+}
+}
+@media screen and (max-width: 365px) {
+ .hero__data{
+  min-width: 250px;
+ }
+
+ .banner__images {
+ 
+  max-width: 200px;
+  
   }
 }
