@@ -11,12 +11,16 @@
 }
 
 .breadcrumbs li a{
+   
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
     padding: 10px;
 }
 
+.breadcrumbs li:not(:last-child) a {
+    padding-left: 0;
+}
 
 .breadcrumbs li a:hover{
     color: #2BC69D;
@@ -26,6 +30,7 @@
 .breadcrumbs > li:not(:last-child):after { 
     content:'|';
     position: relative;
+    
    
     
  }
