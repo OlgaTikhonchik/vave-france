@@ -767,12 +767,17 @@ svg {
   line-height: 22px;
   text-transform: uppercase;
   padding: 8px 12px;
+  gap: 20px;
 }
 
-.ratings ul li img {
+.ratings__list-casino li:nth-child(2){
+  gap:10px;
+}
+
+/* .ratings ul li img {
   width: 250px;
   height: 16px;
-}
+} */
 
 .ratings__button {
   display: inline-block;
@@ -784,15 +789,15 @@ svg {
   margin-right: auto;
 }
 
-.ratings ul li span {
+/* .ratings ul li span {
   font-size: 15px;
   font-weight: 700;
   margin-left: 30px;
-}
+} */
 
-.ratings ul:first-child li:nth-child(2) span {
+/* .ratings ul:first-child li:nth-child(2) span {
   margin-left: 20px;
-}
+} */
 
 .ratings ul li span > *:first-child {
   color: #2bc69d;
@@ -949,4 +954,24 @@ svg {
 
 .footer__text p {
   margin-bottom: 12px;
+}
+/* ------------- */
+
+.ratings__img{
+  max-width: 250px;
+  width: 100%;
+  height: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  overflow: hidden;
+  /* direction: ltr ; */
+}
+
+.ratings__list .ratings__img span{
+  all: unset;
+  display: block;
+  height: 16px;
+  background:#2BC69D ;
+ 
+  
 }

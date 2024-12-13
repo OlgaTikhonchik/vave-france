@@ -6,19 +6,36 @@
 
 @media screen and (max-width: 1390px) {
   .ratings ul li span {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
-  .ratings ul:first-child li:nth-child(2) span {
+  /* .ratings ul:first-child li:nth-child(2) span {
     margin-left: 10px;
+  } */
+
+  .ratings__img {
+    width: 200px;
   }
+
 }
 
 @media screen and (max-width: 1356px) {
-  .ratings ul li img {
+  /* .ratings ul li img {
+    width: 150px;
+  } */
+
+  .ratings__img {
     width: 150px;
   }
+  
+}
 
+@media screen and (max-width: 1291px) {
+  
+
+  .ratings__img {
+    width: 140px;
+  }
   
 }
 
@@ -27,9 +44,12 @@
     left: -200px;
   }
 
-  .ratings ul li img {
+  .ratings__img {
     width: 250px;
   }
+  /* .ratings ul li img {
+    width: 250px;
+  } */
 
   .ratings__wrap {
     flex-direction: column;
@@ -113,7 +133,7 @@
   .header__menu {
     display: none;
     position: fixed;
-    top: 80px;
+    top: 65px;
     left: 0;
     width: 100%;
     height: 0;
@@ -274,10 +294,15 @@
   }
 }
 
+@media screen and (max-width: 589px) {
+.ratings__img {
+  width: 200px;
+}}
+
 @media screen and (max-width: 580px) {
-  .ratings ul li img {
+  /* .ratings ul li img {
     width: 200px;
-  }
+  } */
 
   .hero__img {
     left: -400px;
@@ -302,19 +327,25 @@
     display: none;
   }
 
-  .ratings ul li img {
+   /* .ratings ul li img {
     width: 150px;
-  }
+  }  */
 
   .hero__rating {
     margin-bottom: 0;
   }
-}
+
+  
+
+  .ratings__img {
+    width: 130px;
+  }}
+
 
 @media screen and (max-width: 485px) {
-  .ratings__list img {
+  /* .ratings__list img {
     display: none;
-  }
+  } */
 
   .faq__subtitle {
     font-size: 14px;
@@ -334,7 +365,16 @@
     flex-wrap: wrap;
     gap: 20px;
   }
-}
+
+  .ratings__img {
+    width: 110px;
+  }}
+
+  @media screen and (max-width: 430px) {
+    .ratings__img {
+      width: 90px;
+    }}
+  
 
 @media screen and (max-width: 416px) {
   .header__button {
@@ -347,7 +387,11 @@
   .main {
     display: block;
   }
-}
+
+  .ratings__img {
+    display: none;
+  }}
+
 
 
 /* -----------bonus------------- */
@@ -405,7 +449,11 @@
 }
 
 
-
+@media screen and (max-width: 538px) {
+  .breadcrumbs{
+    justify-content: center;
+  }
+}
 
   @media screen and (max-width: 409px) {
     .hero__image{
