@@ -22,7 +22,7 @@
     padding-left: 0;
 }
 
-.breadcrumbs li a:hover{
+.breadcrumbs li:not(:last-child) a:hover{
     color: #2BC69D;
 }
 
