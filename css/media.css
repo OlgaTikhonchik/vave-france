@@ -147,6 +147,7 @@
     position: relative;
     font-size: 28px;
     padding: 10px 40px;
+    white-space: nowrap;
 
   }
 
@@ -379,26 +380,26 @@
       
   }
 
- .about .about__content{
+ .bonuses .bonuses__content{
   flex-direction: column;
   align-items: center;
   padding-right: 10px;
  }
 
-  .about__images{
+  .bonuses__images{
     position: relative;
     right: -40px;
   }
 
-  .about__wrap {
+  .bonuses__wrap {
     align-items: center;
   }
 
-  .about .about__button{
+  .bonuses .bonuses__button{
     margin:0 auto;
   }
 
-  .about__wrap p {
+  .bonuses__wrap p {
     text-align: center;
   }
 }
@@ -415,6 +416,12 @@
       padding-left: 10px;
         
     }}
+
+    @media screen and (max-width: 350px) {
+      .hero__data {
+          min-width: 280px;
+      }
+  }   
    
 
 /* ------------app-------------- */
